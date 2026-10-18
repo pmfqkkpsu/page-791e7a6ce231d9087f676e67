@@ -1,0 +1,74 @@
+{
+  "version": 2,
+  "template_version": "3a528c553883e59d7cfa",
+  "page_size": 20,
+  "site_id": "937d9caa473f67ec210a0e92",
+  "owner": "pmfqkkpsu",
+  "repo": "page-791e7a6ce231d9087f676e67",
+  "title": "光速",
+  "mode": "repo",
+  "articles": [
+    {
+      "id": "791e7a6ce231d9087f676e67",
+      "a": "光速",
+      "b": "",
+      "entity": "光速",
+      "brand": "光速",
+      "separator": "",
+      "path": "index.html",
+      "hash": "a840d2da592a633bc4e3861539236805d6353169feab406f670da42e1c8e5652",
+      "content": {
+        "keyword1": "光速",
+        "keyword2": "",
+        "primary_entity": "光速",
+        "plans": [],
+        "clients": [],
+        "_offline": false,
+        "content": {
+          "AI_HERO_INTRO": "光速这里用朋友聊天的方式，把套餐怎么选、设备怎么用、常见问题怎么处理，慢慢说清楚，不绕弯子。",
+          "AI_DESCRIPTION": "光速这里用朋友聊天的方式，把套餐怎么选、设备怎么用、常见问题怎么处理，慢慢说清楚，不绕弯子。"
+        },
+        "_brand_page": {
+          "version": 3,
+          "body": "<style>\n  :root{--ink:#141414;--ink-soft:#4a4a4a;--line:#141414;--paper:#f4f4f2;--paper-2:#e8e8e5;--accent:#e0492b}\n  *{box-sizing:border-box}\n  html{}\n  body{margin:0;background:var(--paper);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,\"Segoe UI\",\"PingFang SC\",\"Hiragino Sans GB\",\"Microsoft YaHei\",sans-serif;font-size:16px;line-height:1.7;-webkit-font-smoothing:antialiased}\n  a{color:inherit}\n  .layout{display:grid;grid-template-columns:220px 1fr;min-height:100vh}\n  .side{border-right:2px solid var(--line);padding:28px 22px 40px;position:sticky;top:0;align-self:start;height:100vh;display:flex;flex-direction:column;gap:26px}\n  .side .mark{font-weight:800;letter-spacing:.18em;font-size:15px;border:2px solid var(--line);padding:8px 10px 8px 12px;text-align:center}\n  .side .mark span{color:var(--accent)}\n  .side nav ol{list-style:none;margin:0;padding:0;counter-reset:navc;display:flex;flex-direction:column;gap:2px}\n  .side nav li{counter-increment:navc}\n  .side nav a{display:flex;gap:10px;text-decoration:none;padding:7px 4px;font-size:14px;border-bottom:1px solid rgba(20,20,20,.14)}\n  .side nav a::before{content:counter(navc,decimal-leading-zero);font-size:11px;color:var(--ink-soft);letter-spacing:.06em;padding-top:3px}\n  .side nav a:hover{color:var(--accent);border-bottom-color:var(--accent)}\n  .side .note{margin-top:auto;font-size:12px;color:var(--ink-soft);line-height:1.6}\n  main{padding:0 42px 80px;overflow:hidden}\n  section{max-width:900px}\n\n  .hero{border-bottom:2px solid var(--line);padding:44px 0 34px;display:flex;flex-direction:column;gap:22px}\n  .hero .kicker{display:inline-block;font-size:12px;letter-spacing:.24em;text-transform:uppercase;color:var(--ink-soft)}\n  .wordmark{font-size:clamp(76px,18vw,210px);line-height:.84;margin:0;font-weight:900;letter-spacing:-.04em;word-break:break-all}\n  .wordmark em{font-style:normal;color:var(--accent)}\n  .hero .lede{max-width:30em;margin:0;font-size:17px;color:var(--ink-soft)}\n  .hero .meta{display:flex;flex-wrap:wrap;gap:10px;font-size:12.5px}\n  .hero .meta span{border:2px solid var(--line);padding:4px 12px}\n  .jump{display:flex;flex-wrap:wrap;gap:8px 22px;font-size:14px;padding-top:8px}\n  .jump a{text-decoration:none;border-bottom:2px solid var(--accent);padding-bottom:1px}\n\n  .block{padding:52px 0;border-bottom:2px solid var(--line)}\n  .block:last-of-type{border-bottom:none}\n  .block h2{font-size:clamp(26px,3.4vw,36px);line-height:1.25;margin:0 0 8px;letter-spacing:-.01em}\n  .block .sub{margin:0 0 30px;color:var(--ink-soft);max-width:34em}\n\n  .steps{display:grid;gap:18px;grid-template-columns:repeat(2,minmax(0,1fr))}\n  .step{border:2px solid var(--line);padding:22px 20px 20px;position:relative}\n  .step .no{font-size:34px;font-weight:900;line-height:1;display:block;margin-bottom:12px;color:var(--accent)}\n  .step h3{margin:0 0 8px;font-size:17px}\n  .step p{margin:0;font-size:14.5px;color:var(--ink-soft)}\n\n  .compare{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:22px}\n  .plan{border:2px solid var(--line);padding:24px 22px 26px;display:flex;flex-direction:column;gap:14px;background:var(--paper)}\n  .plan.recommended{border-width:3px;background:#fff;position:relative}\n  .plan.recommended::after{content:\"用得最多的这一档\";position:absolute;top:-2px;right:-2px;background:var(--accent);color:#fff;font-size:12px;letter-spacing:.08em;padding:4px 10px}\n  .plan h3{margin:0;font-size:20px;letter-spacing:.02em}\n  .plan .price{font-size:30px;font-weight:900;line-height:1.1;margin:0}\n  .plan .price small{font-size:13px;font-weight:400;color:var(--ink-soft);display:block;margin-top:6px}\n  .plan ul{list-style:none;padding:0;margin:0;display:flex;flex-direction:column;gap:8px;font-size:14.5px}\n  .plan ul li{padding-left:16px;position:relative;color:var(--ink-soft)}\n  .plan ul li::before{content:\"\";position:absolute;left:0;top:.62em;width:7px;height:7px;background:var(--accent)}\n  .plan .foot{margin-top:auto;font-size:12.5px;color:var(--ink-soft);border-top:1px solid rgba(20,20,20,.18);padding-top:12px}\n  .plans-tip{margin:22px 0 0;font-size:14px;color:var(--ink-soft);border-left:4px solid var(--accent);padding-left:14px;max-width:40em}\n\n  .clients{display:grid;gap:16px;grid-template-columns:repeat(3,minmax(0,1fr))}\n  .client{border:2px solid var(--line);padding:18px}\n  .client h3{margin:0 0 6px;font-size:16px}\n  .client p{margin:0;font-size:13.5px;color:var(--ink-soft)}\n  .client .addr{display:block;margin-top:10px;font-size:12.5px;border-top:1px dashed rgba(20,20,20,.35);padding-top:8px;color:var(--ink-soft)}\n\n  .faq{display:flex;flex-direction:column;gap:26px}\n  .qa{display:flex;flex-direction:column;gap:10px}\n  .qa .ask{align-self:flex-start;border:2px solid var(--line);background:#fff;padding:10px 16px;font-weight:700;font-size:15px;max-width:34em;position:relative}\n  .qa .ask::after{content:\"\";position:absolute;left:22px;bottom:-9px;width:14px;height:14px;background:#fff;border-right:2px solid var(--line);border-bottom:2px solid var(--line);transform:rotate(45deg)}\n  .qa .answer{align-self:flex-end;background:var(--paper-2);border:2px solid var(--line);padding:12px 16px;font-size:14.5px;max-width:38em;position:relative;color:var(--ink-soft)}\n  .qa .answer strong{color:var(--ink)}\n\n  footer{max-width:900px;padding:34px 0 10px;font-size:13px;color:var(--ink-soft);display:flex;flex-wrap:wrap;gap:8px 26px;border-top:2px solid var(--line)}\n\n  @media (max-width:900px){\n    .layout{grid-template-columns:1fr}\n    .side{position:static;height:auto;border-right:none;border-bottom:2px solid var(--line);padding:20px 20px 22px;gap:16px}\n    .side nav ol{flex-direction:row;flex-wrap:wrap;gap:4px 18px}\n    .side nav a{border-bottom:1px solid rgba(20,20,20,.14);padding:4px 0}\n    .side .note{margin-top:0}\n    main{padding:0 20px 60px}\n    .steps{grid-template-columns:1fr}\n    .compare{grid-template-columns:1fr}\n    .clients{grid-template-columns:1fr}\n  }\n</style><div class=\"layout\">\n\n  <aside class=\"side\">\n    <div class=\"mark\">光速 <span>/</span> 说明页</div>\n    <nav aria-label=\"目录\">\n      <ol>\n        <li><a href=\"#how\">怎么开始用</a></li>\n        <li><a href=\"#plans\">套餐对照</a></li>\n        <li><a href=\"#clients\">客户端在哪</a></li>\n        <li><a href=\"#faq\">常见问题</a></li>\n      </ol>\n    </nav>\n    <p class=\"note\">这页不是营销海报，是把用法、套餐和疑问摊开说的地方。有不明白的地方，先往下翻。</p>\n  </aside>\n\n  <main>\n    <section class=\"hero\">\n      <span class=\"kicker\">说明与套餐 · 一次讲完</span>\n      <h1 class=\"wordmark\">光<em>速</em></h1>\n      <p class=\"lede\">你好，这里是光速的说明页。与其让你在一堆术语里猜，不如把怎么用、选哪档、遇到问题怎么办，像朋友一样直接告诉你。下面三段加一节问答，看完基本就不会再卡住。</p>\n      <div class=\"meta\">\n        <span>三档套餐</span>\n        <span>按年付更省</span>\n        <span>设备数写明</span>\n        <span>问题有人答</span>\n      </div>\n      <div class=\"jump\">\n        <a href=\"#how\">先看怎么开始</a>\n        <a href=\"#plans\">再挑套餐</a>\n        <a href=\"#faq\">卡住了看这里</a>\n      </div>\n    </section>\n\n    <section class=\"block\" id=\"how\">\n      <h2>第一次用，按这四步来就行</h2>\n      <p class=\"sub\">不用记顺序，只要别跳步。每一步都不需要什么技术底子，照着做就好。</p>\n      <div class=\"steps\">\n        <article class=\"step\">\n          <span class=\"no\">01</span>\n          <h3>先想清楚你有几台设备</h3>\n          <p>手机、平板、电脑，各算一台。先数一遍，再去看套餐里的「同时在线设备数」，就知道哪档够用。数错了再换档会很折腾，所以这一步值得花两分钟。</p>\n        </article>\n        <article class=\"step\">\n          <span class=\"no\">02</span>\n          <h3>挑一档，别一上来就买最贵的</h3>\n          <p>用得少就选基础版，日常多设备就旗舰版，人多或者办公用再考虑团队版。套餐是按需选的，不是按面子选的。</p>\n        </article>\n        <article class=\"step\">\n          <span class=\"no\">03</span>\n          <h3>装好客户端，登录进去</h3>\n          <p>客户端在下面的「客户端在哪」里列清楚了。装完之后用订阅时拿到的账号登录，设备数不要超过你选的那一档。</p>\n        </article>\n        <article class=\"step\">\n          <span class=\"no\">04</span>\n          <h3>用一段时间再回头看流量</h3>\n          <p>头一个星期留意一下每月额度够不够。如果经常贴着上限用，下个周期升一档会比临时加购省心。</p>\n        </article>\n      </div>\n    </section>\n\n    <section class=\"block\" id=\"plans\">\n      <h2>套餐对照：两栏摆放，一眼看到差别</h2>\n      <p class=\"sub\">基础版和旗舰版是大家最常纠结的两档，摆在一起看差别最直观。团队版放在下面单独说，因为它更像是给一群人用的。</p>\n      <div class=\"compare\">\n        <article class=\"plan\">\n          <h3>基础版</h3>\n          <p class=\"price\">¥15 <small>每月 · 按年付仅需 ¥150/年</small></p>\n          <ul>\n            <li>每月 100GB 流量额度</li>\n            <li>支持 3 台设备同时在线</li>\n            <li>可解锁基础流媒体</li>\n            <li>普通线路节点池</li>\n          </ul>\n          <p class=\"foot\">适合自己一个人用，手机加一台电脑，偶尔看看剧。</p>\n        </article>\n        <article class=\"plan recommended\">\n          <h3>旗舰版</h3>\n          <p class=\"price\">¥35 <small>每月 · 按年付仅需 ¥350/年</small></p>\n          <ul>\n            <li>每月 300GB 流量额度</li>\n            <li>支持 5 台设备同时在线</li>\n            <li>全节点原生流媒体解锁</li>\n            <li>IPLC 专线游戏加速优化</li>\n            <li>7x24 优先工单支持</li>\n          </ul>\n          <p class=\"foot\">设备多、要玩游戏、希望问题被优先处理，这档是最省心的选择。</p>\n        </article>\n      </div>\n      <article class=\"plan\">\n        <h3>团队版</h3>\n        <p class=\"price\">¥85 <small>每月 · 按年付仅需 ¥850/年</small></p>\n        <ul>\n          <li>每月 1000GB 流量额度</li>\n          <li>支持 20 台设备同时在线</li>\n          <li>VIP 专属高带宽节点</li>\n          <li>支持企业定制路由</li>\n          <li>专属客户经理服务</li>\n        </ul>\n        <p class=\"foot\">几个人一起用，或者办公场景需要统一安排时，再考虑这一档。</p>\n      </article>\n      <p class=\"plans-tip\">小提示：三档的年付价格都是月付的十个月份量，所以如果你确定会用满一年，年付更划算；如果只想先试试水，月付更灵活。</p>\n    </section>\n\n    <section class=\"block\" id=\"clients\">\n      <h2>客户端在哪</h2>\n      <p class=\"sub\">下面的信息只说明各端怎么进入客户端界面。具体下载地址以你订阅后收到的说明为准，这里不提供第三方下载链接，也不代你判断来源。</p>\n      <div class=\"clients\">\n        <article class=\"client\">\n          <h3>手机端</h3>\n          <p>在系统自带的应用商店里搜索客户端名称，认准开发者信息再安装。不熟悉的安装包来源，建议直接跳过。</p>\n          <span class=\"addr\">下载地址：以订阅后收到的官方说明为准</span>\n        </article>\n        <article class=\"client\">\n          <h3>电脑端</h3>\n          <p>桌面版和手机版登录同一个账号，设备数统一计算。装好之后先用一台设备登录试一下，确认正常再加第二台。</p>\n          <span class=\"addr\">下载地址：以订阅后收到的官方说明为准</span>\n        </article>\n        <article class=\"client\">\n          <h3>其他设备</h3>\n          <p>如果你的设备不在上面两类里，先别急着装。把你的设备类型和系统版本记下来，问一下再决定，能少走弯路。</p>\n          <span class=\"addr\">下载地址：以订阅后收到的官方说明为准</span>\n        </article>\n      </div>\n    </section>\n\n    <section class=\"block\" id=\"faq\">\n      <h2>常见问题</h2>\n      <p class=\"sub\">下面是大家问得最多的几句，我按一问一答摆出来，你不用一条条去找。</p>\n      <div class=\"faq\">\n\n        <div class=\"qa\">\n          <div class=\"ask\">我到底该选哪一档？</div>\n          <div class=\"answer\">先数设备，再看流量。一个人一到三台设备、日常刷网页看看剧，基础版够；<strong>四五台设备、要玩游戏、希望工单被优先处理</strong>，选旗舰版；如果是几个人一起用或者办公场景，团队版更合适。拿不准就先月付试一个月。</div>\n        </div>\n\n        <div class=\"qa\">\n          <div class=\"ask\">三台设备和五台设备，是同时在线还是总共能登录？</div>\n          <div class=\"answer\">说的是<strong>同时在线</strong>的设备数。如果你有四台设备但不会同时开，基础版其实也能应付；但如果你经常几台一起开着，就直接看旗舰版的 5 台。</div>\n        </div>\n\n        <div class=\"qa\">\n          <div class=\"ask\">流量用超了会怎么样？</div>\n          <div class=\"answer\">每档套餐的每月流量额度写在上面了，用超之后的具体处理方式以你订阅时的说明为准。我的建议是：头一个月多留意用量，如果发现自己老是贴着上限，就在下个周期换一档，比每次临时处理要省心。</div>\n        </div>\n\n        <div class=\"qa\">\n          <div class=\"ask\">月付和年付，哪个更适合我？</div>\n          <div class=\"answer\">年付价格相当于十个月的月付，<strong>确定会用满一年就年付</strong>；如果只是想先试试、或者不确定自己会不会一直用，月付更自由，换档也不用纠结。</div>\n        </div>\n\n        <div class=\"qa\">\n          <div class=\"ask\">装了客户端连不上，第一步查什么？</div>\n          <div class=\"answer\">先确认三件事：账号是不是登录成功、当前设备数有没有超出套餐上限、以及是不是在客户端里选错了节点。这三样都对还不行，就带着你的设备类型和系统版本去提工单，说清楚现象，比反复重装有效得多。</div>\n        </div>\n\n        <div class=\"qa\">\n          <div class=\"ask\">想从基础版换到旗舰版，会不会很麻烦？</div>\n          <div class=\"answer\">换档的具体规则以订阅时的说明为准，这部分不用猜。你可以先想清楚是流量不够还是设备数不够——如果只是设备数差一台，也许调整一下使用习惯就够了；如果两样都紧，那就直接升。</div>\n        </div>\n\n      </div>\n    </section>\n\n    <footer>\n      <span>光速 · 说明页</span>\n      <span>套餐价格与权益以本页所列内容为准</span>\n      <span>客户端下载地址以订阅后收到的说明为准</span>\n    </footer>\n  </main>\n\n</div>",
+          "hash": "65bf43fbf194b417004c11fa56182d947c048e98c3378dc4ecb35fefbc6214fe",
+          "seo": {
+            "title": "光速 · 网络使用说明与套餐",
+            "keywords": "光速,光速套餐,网络使用说明,订阅设备,常见问题",
+            "description": "光速这里用朋友聊天的方式，把套餐怎么选、设备怎么用、常见问题怎么处理，慢慢说清楚，不绕弯子。"
+          },
+          "provider": "grok",
+          "model": "deepseek-flash",
+          "design": {
+            "no": "5689",
+            "hero": "2 超大字号品牌名铺满首屏的海报式",
+            "palette": "10 黑白灰单色配一处强调色",
+            "nav": "2 左侧竖排目录",
+            "card": "2 粗描边直角",
+            "plans_view": "5 两栏对照配推荐标记",
+            "faq_view": "5 对话气泡式问答",
+            "tone": "2 亲切的朋友式口吻",
+            "order": "首屏优先，其余区块由 AI 根据已选构图和信息关系安排"
+          }
+        }
+      }
+    }
+  ],
+  "domain": {
+    "apex": "boxev.cn",
+    "host": "p-04dfdae7fa.boxev.cn",
+    "kind": "subdomain",
+    "candidate_roots_ref": "subdomain_roots:91e741dce7c147d9ce91af6f84daa678dae755807d903b04925261e0a3a8d804",
+    "prefix_mode": "auto"
+  },
+  "friendlinks": [],
+  "file_hashes": {
+    "index.html": "ad0a5c7332aa21d85018f308f3b42400de01c7d4e40bd0cb8f51d89ac5008fd5",
+    "sitemap.xml": "1cc312f239dd522050317b1a864df63ff48ba6a1d91971c2075f7dffa429dc46",
+    ".nojekyll": "12ae32cb1ec02d01eda3581b127c1fee3b0dc53572ed6baf239721a03d82e126",
+    "CNAME": "e2254f87083ce39db93d04af5f90c0de9c680d254dadada9a1e756526338fc1d",
+    "robots.txt": "602a5b4ed0f9efcf0876f3e8f567f3a41bb58a145b6b057c26363d1fd23c348a",
+    "8e4b7ca9adc7e41adc194950236ae8fb.txt": "5db4e34e7dd1c35b29c96aec10a57a4048518e8f8c98aa0910251abb11dd0cab"
+  },
+  "revision": "99ca253a8bf007045668bcaa65a2870e24be3d7f18b9bdfe82a8fa8780392180"
+}

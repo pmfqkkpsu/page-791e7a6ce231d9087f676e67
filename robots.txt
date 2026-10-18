@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://p-04dfdae7fa.boxev.cn/sitemap.xml
